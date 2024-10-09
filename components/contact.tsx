@@ -24,7 +24,7 @@ export default function Contact() {
                 Feel free to contact me at <a className='underline' href='mailto:jianhua1203@gmail.com'>jianhua1203@gmail.com</a> or through this form
             </p>
             <form className='mt-10 flex flex-col' action={async (formData) => {
-                const {data, error} = await sendEmail(formData);
+                const {error} = await sendEmail(formData);
 
                 if(error){
                     toast.error(error)
