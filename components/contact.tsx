@@ -5,7 +5,6 @@ import SectionHeader from './section-header'
 import { motion } from 'framer-motion'
 import { useSectionInView } from '@/lib/hooks';
 import { sendEmail } from '@/server-actions/sendEmail';
-import { useFormStatus } from 'react-dom';
 import SubmitBtn from './submit-btn';
 import toast from 'react-hot-toast';
 
