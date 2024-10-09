@@ -49,8 +49,8 @@ export default function Intro() {
           initial={{opacity: 0, y: 100}}
           animate={{opacity: 1, y: 0}}
         >
-          <span className='font-bold'>{`Hello, I'm Jianhua,`}</span> I'm currently a{" "}
-          <span className='font-bold'>undergraduate Student from Hunter College.</span> I enjoy doing
+          <span className='font-extrabold'>{`Hello, I'm Jianhua,`}</span> I'm currently a{" "}
+          <span className='font-extrabold'>Undergraduate Student from Hunter College.</span> I enjoy doing
           <span className='italic'> web-devs and app developments</span>
         </motion.h1>
 
@@ -69,13 +69,13 @@ export default function Intro() {
           >
           Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-.25 transition'/>
           </Link>
-          <a className='group cursor-pointer bg-white px-7 py-3 flex items-center justify-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60' href="/CV.pdf" download={true}>
+          <a className='group cursor-pointer bg-white px-7 py-3 flex items-center justify-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/80 dark:hover:text-gray-100' href="/CV.pdf" download={true}>
             Download Resume<HiDownload className='group-hover:translate-y-1 transition opacity-60'/>
           </a>
-          <a className='bg-white cursor-pointer p-4 text-gray-700 flex items-center justify-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-[1.15] active:scale-[1.15] hover:text-gray-950 transition borderBlack dark:bg-white/10 dark:text-white/60' href='https://linkedin.com/in/jianhua-deng/' target='_blank'>
+          <a className='bg-white cursor-pointer p-4 text-gray-700 flex items-center justify-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-[1.15] active:scale-[1.15] hover:text-gray-950 transition borderBlack dark:bg-white/10 dark:text-white/80 dark:hover:text-gray-100' href='https://linkedin.com/in/jianhua-deng/' target='_blank'>
             <BsLinkedin/>
           </a>
-          <a className='bg-white cursor-pointer p-4 text-gray-700 flex items-center justify-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition borderBlack dark:bg-white/10 dark:text-white/60' href='https://github.com/jianhua-deng' target='_blank'>
+          <a className='bg-white cursor-pointer p-4 text-gray-700 flex items-center justify-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition borderBlack dark:bg-white/10 dark:text-white/80 dark:hover:text-gray-100' href='https://github.com/jianhua-deng' target='_blank'>
             <FaGithubSquare/>
           </a>
         </motion.div>
