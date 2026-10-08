@@ -49,9 +49,9 @@ export default function Intro() {
           initial={{opacity: 0, y: 100}}
           animate={{opacity: 1, y: 0}}
         >
-          <span className='font-extrabold'>{`Hello, I'm Jianhua,`}</span> I'm currently a{" "}
-          <span className='font-extrabold'>Undergraduate Student from Hunter College.</span> I enjoy doing
-          <span className='italic'> web-devs and app developments</span>
+          <span className='font-extrabold'>{`Hello, I'm Jianhua.`}</span>{" "}
+          I build <span className='font-extrabold'>full-stack applications, AI tools, and cloud services</span>{" "}
+          that make everyday tasks easier.
         </motion.h1>
 
         <motion.div className='flex flex-col justify-center sm:flex-row gap-5 px-4 text-lg font-medium'

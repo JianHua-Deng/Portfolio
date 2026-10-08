@@ -21,7 +21,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Jianhua's Personal Portfolio",
-  description: "Jianhua is currently a undergraduate pursuing a Bachelor degree in Computer Science",
+  description: "Jianhua Deng builds full-stack applications, AI tools, and cloud services. Explore selected projects in computer vision, NLP, web development, and automation.",
 };
 
 export default function RootLayout({
