@@ -8,6 +8,20 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "MikanCli",
+    category: "Developer tooling & automation",
+    description: "A Python CLI that turns anime search results and subgroup RSS feeds into qBittorrent download rules. Includes guided feed previews, episode and keyword filters, JSON rule drafts, and API verification that submitted rules were saved.",
+    tags: ["Python", "CLI", "RSS", "REST APIs", "pipx"],
+    link: "https://github.com/JianHua-Deng/MikanCli",
+  },
+  {
+    title: "DexScape",
+    category: "Full-stack web application",
+    description: "A responsive MangaDex client for browsing manga and webtoons, searching titles and authors, reading chapters, and bookmarking favorite series. Combines a React interface with Supabase authentication and a custom AWS caching proxy.",
+    tags: ["React", "Supabase", "PostgreSQL", "MUI", "MangaDex API"],
+    link: "https://github.com/JianHua-Deng/DexScape",
+  },
+  {
     title: "ComicTranslate AI",
     category: "Computer vision & AI",
     description: "A full-stack comic translation app that detects speech bubbles, extracts text with OCR, removes the original lettering, and renders translated text back onto the page. Supports batch image uploads and Docker workflows for CPU or GPU processing.",
@@ -27,27 +41,6 @@ export const projectsData = [
     description: "Worked on an aspect-based sentiment analysis pipeline for a Cadence industry project, turning Amazon product reviews into feature-level insights. My contributions focused on model selection, hyperparameter tuning, training, and optimization; the team presented insights through a Streamlit dashboard.",
     tags: ["Python", "NLP", "BERT", "Machine Learning", "Streamlit"],
     link: "https://github.com/aaryaamoharir/cadence_2B_bttai",
-  },
-  {
-    title: "DexScape",
-    category: "Full-stack web application",
-    description: "A responsive MangaDex client for browsing manga and webtoons, searching titles and authors, reading chapters, and bookmarking favorite series. Combines a React interface with Supabase authentication and a custom AWS caching proxy.",
-    tags: ["React", "Supabase", "PostgreSQL", "MUI", "MangaDex API"],
-    link: "https://github.com/JianHua-Deng/DexScape",
-  },
-  {
-    title: "DexScape Cache Service",
-    category: "Cloud infrastructure & backend",
-    description: "A TypeScript reverse proxy that caches MangaDex JSON responses in DynamoDB with configurable expiration, stores images in S3, and serves cached images through CloudFront. Handles cache hits and misses to reduce repeated upstream requests.",
-    tags: ["TypeScript", "Express", "AWS S3", "DynamoDB", "CloudFront"],
-    link: "https://github.com/JianHua-Deng/Dexscape-Cache-Service",
-  },
-  {
-    title: "MikanCli",
-    category: "Developer tooling & automation",
-    description: "A Python CLI that turns anime search results and subgroup RSS feeds into qBittorrent download rules. Includes guided feed previews, episode and keyword filters, JSON rule drafts, and API verification that submitted rules were saved.",
-    tags: ["Python", "CLI", "RSS", "REST APIs", "pipx"],
-    link: "https://github.com/JianHua-Deng/MikanCli",
   },
   {
     title: "Brainbuddy",
